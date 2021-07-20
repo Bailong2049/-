@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+.input-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:40rpx;
+  font-size:150%;
+}
+
+.next {
+  position: absolute;
+  top: 900rpx;
+  left:200rpx
+}

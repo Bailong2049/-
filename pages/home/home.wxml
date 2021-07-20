@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<view class="input-title">主页</view>
+
+<button bindtap="next" class="next">首次登陆</button>

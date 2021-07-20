@@ -1,0 +1,57 @@
+/* pages/dk/dk.wxss */
+.input-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:40rpx;
+  font-size:150%;
+}
+.calendar {
+  background-color:white; 
+  padding-top: 10px;   
+  border: 2rpx solid #000000;
+  border-radius: 15px;  
+}
+.header {
+  font-size: large;
+  color: #59518d; 
+}
+.board {
+  color: #c7cbe2;
+  font-weight: bold;
+}
+
+.title {
+  display: flex; 
+  justify-content: center;
+  font-size: 120%;
+  margin: 10rpx;
+}
+.tr {
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;  
+  background: snow;
+  border: 2rpx solid #000000;
+ }
+ .t2 {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  padding: 0 25rpx;
+  border: 2rpx solid #000000;  
+  background: #E6F3F9;
+ }
+.t4 {
+  display: flex;
+  width:40%;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2rpx solid #000000;
+ }
