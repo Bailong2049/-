@@ -1,0 +1,29 @@
+<!--pages/dk/dk.wxml-->
+<view class="input-title">打卡</view>
+<calendar calendar-style="calendar" header-style="header" board-style="board" next="{{false}}" prev="{{false}}" show-more-days="{{true}}" weeks-type="cn" days-color="{{daystyle}}" binddayClick="dayClick" />
+
+<view class="title">今日打卡</view>
+<view>
+
+ <view class="tr"> 
+ <view class="t2" style="width:33%">项目</view>
+ <view class="t2" style="width:33%">运动量</view>
+ <view class="t2" style="width:33%">备注</view>
+</view>
+
+ <view class="tr">
+ <view class="t4" style="width:33%">1</view>
+ <view class="t4" style="width:33%">2</view>
+ <view class="t4" style="width:33%">3</view>
+</view>
+
+<view>
+ <view class="tr">
+
+ <view class="t2" style="width:100%" bindtap="goTodk1">新增打卡</view>
+ </view>
+</view>
+
+</view>
+
+

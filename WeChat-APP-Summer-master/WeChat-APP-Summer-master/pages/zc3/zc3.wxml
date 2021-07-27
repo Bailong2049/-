@@ -1,0 +1,27 @@
+<!--pages/zc3/zc3.wxml-->
+<view class="container">
+
+<view class="input-title">运动目标</view>
+
+<!-- <navigator url="../zc3a/zc3a"> -->
+  <!-- <image class="jianfei"bindtap="nexta"scr="../image/jianfei.jpg"></image> -->
+<!-- </navigator> -->
+
+
+
+<button bindtap="nexta" class="next1">减肥</button>
+<button bindtap="nextb" class="next1">增肌</button>
+<button bindtap="nextc" class="next1">塑形</button>
+
+<button bindtap="next" class="next">跳过</button>
+
+</view>
+
+
+<!-- <view>
+  <navigator class="nexta" url="../zc3a/zc3a">
+    <image class="jianfei" scr="/image/jianfei.jpg"></image>
+  </navigator>
+</view> -->
+
+
