@@ -1,0 +1,71 @@
+<!--pages/rc/rc.wxml-->
+<view class="input-title">日程</view>
+
+<view class="t0 {{bg}}" bindtap="select">修改日程</view>
+
+<view>
+  <view class="tr"> 
+  <view class="t2">星期</view>
+  <view class="t2">一</view>
+  <view class="t2">二</view>
+  <view class="t2">三</view>
+  <view class="t2">四</view>
+  <view class="t2">五</view>
+  <view class="t2">六</view>
+  <view class="t2">日</view>
+  </view>
+ <view class="tr">
+ <view class="t3">06:00-08:00</view>
+ <view wx:for="{{array1}}" class="t4 {{item.color}}" bindtap="changeColor1" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view class="t3">08:00-10:00</view>
+ <view wx:for="{{array2}}" class="t4 {{item.color}}" bindtap="changeColor2" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view class="t3">10:00-12:00</view>
+ <view wx:for="{{array3}}" class="t4 {{item.color}}" bindtap="changeColor3" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view class="t3">13:30-15:30</view>
+ <view wx:for="{{array4}}" class="t4 {{item.color}}" bindtap="changeColor4" data-index="{{index}}">{{item.text}}</view>
+</view>
+<view class="tr">
+ <view class="t3">15:30-17:30</view>
+ <view wx:for="{{array5}}" class="t4 {{item.color}}" bindtap="changeColor5" data-index="{{index}}">{{item.text}}</view>
+
+</view>
+<view class="tr">
+ <view class="t3">18:30-20:30</view>
+ <view wx:for="{{array5}}" class="t4 {{item.color}}" bindtap="changeColor5" data-index="{{index}}">{{item.text}}</view>
+
+</view>
+</view>
+
+
+<view class="title">我的计划</view>
+<view>
+
+ <view class="tr"> 
+ <view class="t2" style="width:20%">计划</view>
+ <view class="t2" style="width:20%">项目</view>
+ <view class="t2" style="width:28%">运动量</view>
+ <view class="t2" style="width:28%">完成度</view>
+ <view class="t2" style="width:28%">详情</view>
+</view>
+
+ <view class="tr">
+  <view class="t4" style="width:20%">计划1</view>
+ <view class="t4" style="width:20%">项目1</view>
+ <view class="t4" style="width:28%">运动量1</view>
+ <view class="t4" style="width:28%">完成度1</view>
+ <view class="t4" style="width:28%">详情1</view>
+</view>
+
+<view>
+ <view class="tr">
+ <view class="t2" style="width:100%" bindtap="goTodk1">新增计划</view>
+ </view>
+</view>
+
+</view>
